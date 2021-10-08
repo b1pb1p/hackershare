@@ -22,7 +22,7 @@
     "ssri": "8.0.1",
     "stimulus": "^1.1.1",
     "tailwindcss": "^1.6",
-    "tailwindcss-stimulus-components": "^2.0.2",
+    "tailwindcss-stimulus-components": "^2.2.2",
     "timeago.js": "^4.0.2",
     "turbolinks": "^5.2.0",
     "turbolinks-prefetch": "^1.0.2"
