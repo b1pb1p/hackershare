@@ -4,13 +4,13 @@ source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 6.0.3", ">= 6.0.3.2"
+gem "rails", "~> 6.0.4", ">= 6.0.4.2"
 # Use postgresql as the database for Active Record
 gem "pg", ">= 0.18", "< 2.0"
 # Use Puma as the app server
 gem "puma", "~> 4.3"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem "webpacker", "~> 4.0"
+gem "webpacker", "~> 4.2", ">= 4.2.2"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -35,7 +35,7 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem "listen", "~> 3.2"
-  gem "web-console", ">= 3.3.0"
+  gem "web-console", ">= 4.0.3"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
@@ -74,7 +74,7 @@ gem "image_processing", "~> 1.11"
 
 gem "omniauth", "~> 1.9"
 
-gem "dotenv-rails", "~> 2.7", require: "dotenv/rails-now"
+gem "dotenv-rails", "~> 2.7", ">= 2.7.6", require: "dotenv/rails-now"
 
 gem "omniauth-github", "~> 1.4"
 
@@ -86,7 +86,7 @@ gem "simple_command", "~> 0.1.0"
 
 gem "sitemap_generator", "~> 6.1"
 
-gem "noticed", "~> 1.2"
+gem "noticed", "~> 1.2", ">= 1.2.15"
 gem "actionview", ">= 6.0.3.3"
 
 gem "sendgrid-actionmailer", "~> 3.1"
@@ -103,10 +103,10 @@ gem "sidekiq", "~> 6.1", ">= 6.1.2"
 
 gem "sidekiq-scheduler", "~> 3.0", ">= 3.0.1"
 
-gem "rails-i18n", "~> 6.x"
+gem "rails-i18n", "~> 6.0", ">= 6.0.0"
 
 gem "seed-fu", "~> 2.3", ">= 2.3.9"
-gem "active_storage_silent_logs", group: :development
+gem "active_storage_silent_logs", ">= 0.1.1", group: :development
 
 gem "activestorage_qiniu", "~> 0.2.2"
 
