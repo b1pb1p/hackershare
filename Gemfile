@@ -4,7 +4,7 @@ source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 6.0.3", ">= 6.0.3.2"
+gem "rails", "~> 6.0.5", ">= 6.0.5.1"
 # Use postgresql as the database for Active Record
 gem "pg", ">= 0.18", "< 2.0"
 # Use Puma as the app server
@@ -62,7 +62,7 @@ gem "bcrypt", "~> 3.1"
 
 gem "pry-rails", "~> 0.3.9"
 
-gem "annotate", "~> 3.1"
+gem "annotate", "~> 3.1", ">= 3.1.1"
 
 gem "link_thumbnailer", "~> 3.4"
 
@@ -86,7 +86,7 @@ gem "simple_command", "~> 0.1.0"
 
 gem "sitemap_generator", "~> 6.1"
 
-gem "noticed", "~> 1.2"
+gem "noticed", "~> 1.2", ">= 1.2.15"
 gem "actionview", ">= 6.0.3.3"
 
 gem "sendgrid-actionmailer", "~> 3.1"
