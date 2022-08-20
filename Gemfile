@@ -72,13 +72,13 @@ gem "pagy", "~> 3.8"
 
 gem "image_processing", "~> 1.11"
 
-gem "omniauth", "~> 1.9"
+gem "omniauth", "~> 2.0", ">= 2.0.0"
 
 gem "dotenv-rails", "~> 2.7", require: "dotenv/rails-now"
 
-gem "omniauth-github", "~> 1.4"
+gem "omniauth-github", "~> 2.0", ">= 2.0.0"
 
-gem "omniauth-twitter", "~> 1.4"
+gem "omniauth-twitter", "~> 1.4", ">= 1.4.0"
 
 gem "rack-cors", "~> 1.1"
 
