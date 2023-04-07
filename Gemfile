@@ -44,7 +44,7 @@ group :development do
   gem "capistrano-rails", "~> 1.1"
   gem "capistrano3-puma"
   gem "capistrano-yarn", require: false
-  gem "capistrano-sidekiq", "~> 2.beta", require: false
+  gem "capistrano-sidekiq", "~> 2.0", ">= 2.0.0", require: false
 end
 
 group :test do
@@ -99,7 +99,7 @@ gem "feedjira", "~> 3.1", ">= 3.1.1"
 
 gem "httplog", "~> 1.4"
 
-gem "sidekiq", "~> 6.1", ">= 6.1.2"
+gem "sidekiq", "~> 7.0", ">= 7.0.8"
 
 gem "sidekiq-scheduler", "~> 3.0", ">= 3.0.1"
 
