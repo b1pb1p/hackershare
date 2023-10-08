@@ -4,7 +4,7 @@ source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 6.0.3", ">= 6.0.3.2"
+gem "rails", "~> 7.1.0"
 # Use postgresql as the database for Active Record
 gem "pg", ">= 0.18", "< 2.0"
 # Use Puma as the app server
@@ -86,7 +86,7 @@ gem "simple_command", "~> 0.1.0"
 
 gem "sitemap_generator", "~> 6.1"
 
-gem "noticed", "~> 1.2"
+gem "noticed", "~> 1.2", ">= 1.2.16"
 gem "actionview", ">= 6.0.3.3"
 
 gem "sendgrid-actionmailer", "~> 3.1"
@@ -106,7 +106,7 @@ gem "sidekiq-scheduler", "~> 3.0", ">= 3.0.1"
 gem "rails-i18n", "~> 6.x"
 
 gem "seed-fu", "~> 2.3", ">= 2.3.9"
-gem "active_storage_silent_logs", group: :development
+gem "active_storage_silent_logs", ">= 0.1.2", group: :development
 
 gem "activestorage_qiniu", "~> 0.2.2"
 
