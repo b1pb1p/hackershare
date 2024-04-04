@@ -4,13 +4,13 @@ source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 6.0.3", ">= 6.0.3.2"
+gem "rails", "~> 7.0.8", ">= 7.0.8.1"
 # Use postgresql as the database for Active Record
 gem "pg", ">= 0.18", "< 2.0"
 # Use Puma as the app server
 gem "puma", "~> 4.3"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem "webpacker", "~> 4.0"
+gem "webpacker", "~> 4.3", ">= 4.3.0"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -35,7 +35,7 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem "listen", "~> 3.2"
-  gem "web-console", ">= 3.3.0"
+  gem "web-console", ">= 4.0.4"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
@@ -44,15 +44,15 @@ group :development do
   gem "capistrano-rails", "~> 1.1"
   gem "capistrano3-puma"
   gem "capistrano-yarn", require: false
-  gem "capistrano-sidekiq", "~> 2.beta", require: false
+  gem "capistrano-sidekiq", "~> 2.0", ">= 2.0.0", require: false
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem "capybara", ">= 2.15"
+  gem "capybara", ">= 3.34.0"
   gem "selenium-webdriver"
   # Easy installation and use of web drivers to run system tests with browsers
-  gem "webdrivers"
+  gem "webdrivers", ">= 4.4.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -72,22 +72,22 @@ gem "pagy", "~> 3.8"
 
 gem "image_processing", "~> 1.11"
 
-gem "omniauth", "~> 1.9"
+gem "omniauth", "~> 1.9", ">= 1.9.2"
 
-gem "dotenv-rails", "~> 2.7", require: "dotenv/rails-now"
+gem "dotenv-rails", "~> 2.8", ">= 2.8.0", require: "dotenv/rails-now"
 
-gem "omniauth-github", "~> 1.4"
+gem "omniauth-github", "~> 2.0", ">= 2.0.0"
 
 gem "omniauth-twitter", "~> 1.4"
 
-gem "rack-cors", "~> 1.1"
+gem "rack-cors", "~> 2.0", ">= 2.0.0"
 
 gem "simple_command", "~> 0.1.0"
 
 gem "sitemap_generator", "~> 6.1"
 
-gem "noticed", "~> 1.2"
-gem "actionview", ">= 6.0.3.3"
+gem "noticed", "~> 1.2", ">= 1.2.16"
+gem "actionview", ">= 6.0.3.7"
 
 gem "sendgrid-actionmailer", "~> 3.1"
 
@@ -95,24 +95,24 @@ gem "sentry-raven", "~> 3.0"
 
 gem "lavatar", "~> 0.1.5"
 
-gem "feedjira", "~> 3.1", ">= 3.1.1"
+gem "feedjira", "~> 3.1", ">= 3.1.2"
 
-gem "httplog", "~> 1.4"
+gem "httplog", "~> 1.5", ">= 1.5.0"
 
-gem "sidekiq", "~> 6.1", ">= 6.1.2"
+gem "sidekiq", "~> 6.1", ">= 6.1.3"
 
-gem "sidekiq-scheduler", "~> 3.0", ">= 3.0.1"
+gem "sidekiq-scheduler", "~> 3.1", ">= 3.1.0"
 
-gem "rails-i18n", "~> 6.x"
+gem "rails-i18n", "~> 7.0", ">= 7.0.1"
 
 gem "seed-fu", "~> 2.3", ">= 2.3.9"
-gem "active_storage_silent_logs", group: :development
+gem "active_storage_silent_logs", ">= 0.1.2", group: :development
 
 gem "activestorage_qiniu", "~> 0.2.2"
 
 gem "render_async", "~> 2.1"
 
-gem "lograge", "~> 0.11.2"
+gem "lograge", "~> 0.12.0"
 
 gem "device_detector", "~> 1.0"
 
