@@ -103,7 +103,7 @@ gem "sidekiq", "~> 6.1", ">= 6.1.2"
 
 gem "sidekiq-scheduler", "~> 3.0", ">= 3.0.1"
 
-gem "rails-i18n", "~> 6.x"
+gem "rails-i18n", "~> 8.0", ">= 8.0.0"
 
 gem "seed-fu", "~> 2.3", ">= 2.3.9"
 gem "active_storage_silent_logs", group: :development
