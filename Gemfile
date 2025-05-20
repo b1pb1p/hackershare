@@ -80,7 +80,7 @@ gem "omniauth-github", "~> 1.4"
 
 gem "omniauth-twitter", "~> 1.4"
 
-gem "rack-cors", "~> 1.1"
+gem "rack-cors", "~> 3.0", ">= 3.0.0"
 
 gem "simple_command", "~> 0.1.0"
 
