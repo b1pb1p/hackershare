@@ -76,7 +76,7 @@ gem "omniauth", "~> 1.9"
 
 gem "dotenv-rails", "~> 2.7", require: "dotenv/rails-now"
 
-gem "omniauth-github", "~> 1.4"
+gem "omniauth-github", "~> 2.0", ">= 2.0.0"
 
 gem "omniauth-twitter", "~> 1.4"
 
@@ -91,7 +91,7 @@ gem "actionview", ">= 6.0.3.3"
 
 gem "sendgrid-actionmailer", "~> 3.1"
 
-gem "sentry-raven", "~> 3.0"
+gem "sentry-raven", "~> 3.1", ">= 3.1.0"
 
 gem "lavatar", "~> 0.1.5"
 
